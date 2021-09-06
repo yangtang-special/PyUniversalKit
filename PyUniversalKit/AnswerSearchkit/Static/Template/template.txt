@@ -1,0 +1,35 @@
+from PyUniversalKit import Netkit
+from ..Manage import Manage
+import re
+
+class %s():
+
+    # Initialize add matching rules
+    def __init__(self):
+        self.url = "API corresponding to the interface"
+
+    @staticmethod
+    # API Post upload data method
+    def __parameterList(params):
+        data = {
+            # Write your rules here
+            "params":params,
+        }
+        return data
+
+    # Iterators here
+    @staticmethod
+    def iterator(end_num):
+        num = 0
+        while num < end_num:
+            yield num
+            num += 1
+
+    def _%s(self,params) -> list:
+        """
+        :param params: The parameters you want to pass in
+        :return: Must be a unary nested list, e.g. `[[message1,message2,message3],[message1,message2,message3]]`
+
+        Write the logic code for the API interface in this section
+        """
+        return list

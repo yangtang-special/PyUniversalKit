@@ -1,0 +1,3 @@
+from .API.%s import I%s
+Anwser_list = I%s()._%s(return_match_list, cookie)
+CSVkit.write(PATH="PyUniversalKit/AnswerSearchkit/API/content.csv",header=False,rows=Anwser_list)
