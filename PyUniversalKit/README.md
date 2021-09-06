@@ -7,6 +7,7 @@
 
 ## 支持
 <a href="https://pypi.org/project/PyUniversalKit/"><img src="/Users/macos/Downloads/python_icon.svg"></a>
+<a href="https://pypi.org/project/PyUniversalKit/"><img src="https://img.shields.io/pypi/v/PyUniversalKit"></a>
 
 ## 更新
 * #### AnswerSearchkit新增Cookie管理器 
@@ -21,9 +22,7 @@
   * #### 使用Manage创建新的API接口文件,以icodef为例
     > `Manage.add_api(name="icodef")`
   * #### 在对应的API文件里面编写相应逻辑函数
-    <img src="PyUniversalKit/PIC/API.png">
   * #### 前往admin.py注册新API接口对应的映射Table
-    <img src="PyUniversalKit/PIC/admin.png">
   * #### 如果有需要，使用Cookie管理器:CookieManager创建新Cookie;flag是一个BOOL值，为True的时候添加Cookie成功
     > `flag = CookieManager.Add_Cookie(URL="要访问的URL",COOKIE="对应的COOKIE")` 
   * #### 前往PyUniversalKit/AnswerSearchkit/Structs/Matches.py手动添加题目匹配规则（Xpath或者正则表达式）
