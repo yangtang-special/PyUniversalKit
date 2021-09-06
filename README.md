@@ -8,6 +8,8 @@
 ## 支持
 <a href="https://pypi.org/project/PyUniversalKit/"><img src="https://warehouse-camo.ingress.cmh1.psfhosted.org/047074c34350165c9a6a57b844a2390d638c173d/68747470733a2f2f6769746875622e636f6d2f6a696e612d61692f6a696e612f626c6f622f6d61737465722f2e6769746875622f6261646765732f707974686f6e2d62616467652e7376673f7261773d74727565"></a>
 <a href="https://pypi.org/project/PyUniversalKit/"><img src="https://img.shields.io/pypi/v/PyUniversalKit"></a>
+<img src="https://badge.fury.io/gh/yangtang-special%2FPyUniversalKit.svg">
+<img src="https://img.shields.io/badge/license-MIT-green">
 
 ## 更新
 * #### AnswerSearchkit新增Cookie管理器 
